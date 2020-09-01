@@ -41,6 +41,6 @@ describe("App.js test using Should API", function () {
     it("Should be a string", function () {
         var result = app.helloWorld();
         result.should.be.a("string");
-        //expect(app.helloWorld()).to.be.a("string");
+        expect(app.helloWorld()).to.be.a("string");
     })
 });
