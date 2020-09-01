@@ -15,7 +15,7 @@ describe("App.js test using Assert API", function () {
     })
 
     it("Assert: must have length 11", function () {
-        assert.lengthOf(app.helloWorld(), 12);
+        assert.lengthOf(app.helloWorld(), 11);
     })
 });
 
