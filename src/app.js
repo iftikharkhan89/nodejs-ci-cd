@@ -11,4 +11,7 @@ module.exports = {
     print: function () {
         return "print";
     }
+     printTest: function () {
+        return "print";
+    }
 }
