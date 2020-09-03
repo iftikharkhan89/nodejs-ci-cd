@@ -10,5 +10,8 @@ module.exports = {
     },
     print: function () {
         return "print";
+    },
+    printTwo: function () {
+        return "print2";
     }
 }
